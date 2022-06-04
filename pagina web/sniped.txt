@@ -1,0 +1,11 @@
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+/*solucion para cuando se coloque un 
+ancho y el padding no afecte*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
